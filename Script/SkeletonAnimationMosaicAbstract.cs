@@ -10,7 +10,7 @@ namespace L2
     public abstract class SkeletonAnimationMosaicAbstract : MonoBehaviour
     {
         /// <summary>
-        /// 舊版本的 Spine 需要將這個值打開，因為舊版本的 Spine 在 Start 的時候，還沒有初始化內容。
+        /// 舊版本的 Spine 需要將這個值打開，因為舊版本的 Spine 在 Start 之前還沒有初始化內容。
         /// </summary>
         public bool AutoOnStart = true; 
 
